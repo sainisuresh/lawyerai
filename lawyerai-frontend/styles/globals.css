@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn-primary {
+  @apply bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center block;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
